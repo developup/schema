@@ -1,0 +1,16 @@
+{
+    "name": "developup/schema",
+    "description": "Extended Schema for Laravel 5",
+    "keywords": ["laravel","illuminate","schema","blueprint","pgsql"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "5.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Schema\\": "src/Schema"
+        }
+    },
+	"minimum-stability": "dev"
+}
